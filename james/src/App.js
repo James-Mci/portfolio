@@ -310,7 +310,7 @@ const App = () => {
                   </div>
                 </div>
               </div>
-              {/* <div className="w-full md:w-3/5 px-4 sm:px-0">
+              <div className="w-full md:w-3/5 px-4 sm:px-0">
                 <div className="relative pl-8 border-l-2 border-indigo-200 space-y-12">
                   {Experience.map((item, index) => (
                     <div key={index} className="relative">
@@ -349,7 +349,7 @@ const App = () => {
                     </div>
                   ))}
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </section>
