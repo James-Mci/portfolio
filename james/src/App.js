@@ -1,7 +1,7 @@
 import React, { useState, useEffect, createContext } from "react";
 import Projects from "./components/Projects";
 // import Skills from "./components/Skills";
-import hero from "./img/hero.JPG";
+import hero from "./img/hero.png";
 import Experience from "./data/Experience";
 
 const ThemeContext = createContext({
@@ -572,8 +572,14 @@ const App = () => {
                 </div> */}
               <div className="flex space-x-4">
                 {[
-                  { icon: "fab fa-github", url: "#" },
-                  { icon: "fab fa-linkedin", url: "#" },
+                  {
+                    icon: "fab fa-github",
+                    url: "https://github.com/James-Mci",
+                  },
+                  {
+                    icon: "fab fa-linkedin",
+                    url: "https://www.linkedin.com/in/james-muchemi",
+                  },
                   { icon: "fab fa-twitter", url: "#" },
                 ].map((social, index) => (
                   <a

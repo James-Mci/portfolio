@@ -32,9 +32,9 @@ const Project = [{
     title: "Portfolio Website",
     description: "A personal portfolio website showcasing projects and skills with a modern design.",
     image: `${portfolio}`,
-    tags: ["React", "Next.js", "Tailwind CSS"],
+    tags: ["React", "Tailwind CSS"],
     demo: "#",
-    github: "#"
+    github: "https://github.com/James-Mci/portfolio.git"
 }
 ]
 

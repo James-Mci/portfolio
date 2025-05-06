@@ -17,7 +17,7 @@ const Projects = () => {
                 </div>
                 {/* Project Filters */}
                 <div className="flex flex-wrap justify-center mb-8 sm:mb-12 gap-2 sm:gap-3">
-                    {['All', 'React', 'Vue', 'TypeScript', 'E-commerce'].map((filter) => (
+                    {['All', 'React', 'PHP', 'TypeScript'].map((filter) => (
                         <button
                             key={filter}
                             onClick={() => setActiveFilter(filter)}
