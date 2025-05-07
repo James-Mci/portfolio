@@ -35,81 +35,15 @@ const Hero = () => {
                   className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-lg shadow-lg transition-all duration-300 flex items-center justify-center !rounded-button whitespace-nowrap cursor-pointer"
                 >
                   <i className="fas fa-eye mr-2"></i> View Projects
-                </button>
-                <a
-                  href="data/james-muchemi-resume.pdf"
-                  download="data/james-muchemi-resume.pdf"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    const modal = document.getElementById("resume-modal");
-                    if (modal) {
-                      modal.style.display = "block";
-                    }
-                  }}
-                  className="bg-white hover:bg-gray-100 text-indigo-600 border border-indigo-600 px-8 py-3 rounded-lg shadow-lg transition-all duration-300 flex items-center justify-center !rounded-button whitespace-nowrap cursor-pointer"
-                >
-                  <i className="fas fa-download mr-2"></i> Download Resume
-                </a>
-                {/* Resume Modal */}
-                {/* <div
-                  id="resume-modal"
-                  className="fixed inset-0 bg-black bg-opacity-50 hidden z-50 flex items-center justify-center"
-                  onClick={(e) => {
-                    if (e.target.id === "resume-modal") {
-                      const modal = document.getElementById("resume-modal");
-                      if (modal) {
-                        modal.style.display = "none";
-                      }
-                    }
-                  }}
-                >
-                  <div className="bg-white rounded-xl shadow-2xl p-8 max-w-4xl w-full mx-4 relative">
-                    <button
-                      onClick={() => {
-                        const modal = document.getElementById("resume-modal");
-                        if (modal) {
-                          modal.style.display = "none";
-                        }
-                      }}
-                      className="absolute top-4 right-4 text-gray-500 hover:text-gray-700 transition-colors"
-                    >
-                      <i className="fas fa-times text-xl"></i>
-                    </button>
-                    <h3 className="text-2xl font-bold text-gray-800 mb-6">
-                      Resume Preview
-                    </h3>
-                    <div
-                      className="bg-gray-100 rounded-lg p-4 mb-6"
-                      style={{ height: "60vh", overflowY: "auto" }}
-                    >
-                      <iframe
-                        src="data/james-muchemi-resume.pdf"
-                        title="Resume Preview"
-                        className="w-full h-full"
-                      ></iframe>
-                    </div>
-                    <div className="flex justify-end space-x-4">
-                      <button
-                        onClick={() => {
-                          const modal = document.getElementById("resume-modal");
-                          if (modal) {
-                            modal.style.display = "none";
-                          }
-                        }}
-                        className="px-6 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors !rounded-button whitespace-nowrap"
-                      >
-                        Cancel
-                      </button>
-                      <a
-                        href="data/james-muchemi-resume.pdf"
-                        download="james-muchemi-resume.pdf"
-                        className="px-6 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors !rounded-button whitespace-nowrap"
-                      >
-                        Download PDF
-                      </a>
-                    </div>
-                  </div>
-                </div> */}
+              </button>
+              <a
+                href={require("../data/james-muchemi-resume.pdf")}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-gray-100 hover:bg-gray-200 text-indigo-600 border border-indigo-600 px-8 py-3 rounded-lg shadow-lg transition-all duration-300 flex items-center justify-center !rounded-button whitespace-nowrap cursor-pointer"
+              >
+                <i className="fas fa-file-pdf mr-2"></i> Download Resume
+              </a>               
               </div>
             </div>
             <div className="md:w-1/2 flex justify-center">
