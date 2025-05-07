@@ -1,4 +1,5 @@
 import React, { useState, useEffect, createContext } from "react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import Projects from "./components/Projects";
 import Hero from "./components/Hero";
 import About from "./components/About";
