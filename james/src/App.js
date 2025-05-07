@@ -56,6 +56,7 @@ const App = () => {
           isDarkMode ? "bg-gray-900 text-gray-100" : "bg-gray-50 text-gray-800"
         } transition-all duration-300`}
       >
+        <SpeedInsights url="https://jamesmuchemi.vercel.app" token="" />
         {/* Header */}
         <header
           className={`fixed top-0 left-0 right-0 ${
