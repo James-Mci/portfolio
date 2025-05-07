@@ -1,13 +1,18 @@
-import React from 'react'
 import { useState } from 'react';
 import Project from '../data/Project';
 
 const Projects = () => {
     const [activeFilter, setActiveFilter] = useState('All');
+    const [isDarkMode, setIsDarkMode] = useState(false); // Added state for isDarkMode
     
   return (
       <div>
-           
+           <section
+                     id="projects"
+                     className={`py-20 ${setIsDarkMode}${
+                       isDarkMode ? "bg-gray-800" : "bg-gray-50"
+                     } transition-colors duration-300`}
+                   >
             <div className="container mx-auto px-4 sm:px-6">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Featured Projects</h2>
@@ -66,7 +71,8 @@ const Projects = () => {
                       <i className="fas fa-arrow-right ml-2"></i>
                   </button>
               </div>
-          </div>
+              </div>
+            </section>
       </div>
     )
 }
