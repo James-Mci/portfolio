@@ -1,4 +1,5 @@
 import portfolio from "../img/portfolio.png";
+import isp from "../img/isp.png";
 const Project = [{
     title: "E-commerce Dashboard",
     description: "A responsive admin dashboard with advanced analytics and real-time data visualization.",
@@ -35,6 +36,14 @@ const Project = [{
     tags: ["React", "Tailwind CSS"],
     demo: "#",
     github: "https://github.com/James-Mci/portfolio.git"
+    },
+{
+    title: "ISP Website",
+    description: "A website for an Internet Service Provider with service plans and customer support.",
+    image: `${isp}`,
+    tags: ["HTML", "Javascript", "Tailwind CSS"],
+    demo: "eazenet-io.vercel.app",
+    github: "https://github.com/James-Mci/eazenet.io.git"
 }
 ]
 
