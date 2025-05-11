@@ -42,7 +42,7 @@ const Project = [{
     description: "A website for an Internet Service Provider with service plans and customer support.",
     image: `${isp}`,
     tags: ["HTML", "Javascript", "Tailwind CSS"],
-    demo: "eazenet-io.vercel.app",
+    demo: "https://eazenet-io.vercel.app/",
     github: "https://github.com/James-Mci/eazenet.io.git"
 }
 ]
