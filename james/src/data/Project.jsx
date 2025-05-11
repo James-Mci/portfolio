@@ -1,5 +1,5 @@
 import portfolio from "../img/portfolio.png";
-import isp from "../img/isp.png";
+import isp from "../img/ISP.png";
 const Project = [{
     title: "E-commerce Dashboard",
     description: "A responsive admin dashboard with advanced analytics and real-time data visualization.",
